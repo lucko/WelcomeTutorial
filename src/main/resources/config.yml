@@ -1,0 +1,38 @@
+prefix: "&7[&bTutorial&7] &f"
+
+welcome:
+  name: "welcome"
+  required-region: "spawn"
+  locations:
+    location1:
+      world: world
+      x: 983.5
+      y: 84.0
+      z: 10.5
+      pitch: 100
+      yaw: 20
+      title: "&eThis is the Spawn area!"
+      subtitle: "&dThe hub for all the servers activities!"
+      wait: 200 # ticks
+      chat:
+        - ""
+        - "&eThis is the Spawn, the hub of the server!"
+        - "&7Here you can access all the different areas of the server"
+        - "&7You can also open crates and talk to NPCs!"
+        - ""
+    location2:
+      world: plots
+      x: -24.5
+      y: 82.0
+      z: -23.5
+      pitch: 100
+      yaw: 20
+      title: "&eThis is the Plots area!"
+      subtitle: "&dYou can create whatever you want on your own plots!"
+      wait: 200 # ticks
+      chat:
+        - ""
+        - "&eWelcome to the plots area!"
+        - "&7Here you can use the command /plots help for more info"
+        - "&7You can build whatever you want on your plot!"
+        - ""
