@@ -3,6 +3,7 @@ package me.lucko.welcometutorial;
 import lombok.AccessLevel;
 import lombok.Getter;
 
+import com.destroystokyo.paper.Title;
 import com.google.common.collect.ImmutableList;
 
 import me.lucko.helper.utils.Color;
@@ -12,7 +13,6 @@ import org.bukkit.Location;
 import org.bukkit.Sound;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Player;
-import org.github.paperspigot.Title;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -66,6 +66,6 @@ public class TutorialStage {
             player.sendMessage(msg);
         }
 
-        player.playSound(player.getLocation(), Sound.BURP, 1.0f, 0.0f);
+        player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_BURP, 1.0f, 0.0f);
     }
 }
